@@ -6,6 +6,6 @@ app.get('/', function (req, res) {
     console.log('hello world');
 });
 
-app.listen(process.env.PORT || 3001);
+app.listen(3001);
 
 module.exports = app;
